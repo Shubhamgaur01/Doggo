@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Doggo</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>    <!--this is font awesome website cdn for apple and android icon-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">        <!--copied from the website (connecting online bootstrap with our idle)-->
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>      <!--these are js files copied from website-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>             <!--for the working of toggler of navigation bar-->  
+</head>
+<body>
+  <section id="titles">
+    <!-- Nav Bar -->
+  <div class="cantainer-fluid">           <!--bootstrap class cantainer fluid makes more lovely looking includes 100% borders-->
+    <nav class="navbar navbar-expand-lg navbar-dark"> <!--nav is navigation bar (expand lg is expand horizantally and large) (dark colour of font)(bg dark is background dark)-->
+      <a class="navbar-brand" href="">Doggo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  <!--toggler switch when screen is small then 3 line come instead of nav-->
+      <span class="navbar-toggler-icon"></span>  <!--for icon of the toggler-->
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+    <!-- Title -->
+  <div class="row">
+    <div class="col-lg-6">
+      <h1>Meet new and interesting dogs nearby.</h1>
+      <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i>Download</button>            <!--bootstrap button colours and outlines and aple icon from font awesome-->
+      <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i>Download</button>  <!--apple android icon from font awesome-->
+    </div>
+    <div class="col-lg-6">
+      <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+    </div>
+  </div>
+  </div>
+  </section>
+  <!-- Features -->
+  <section id="features">
+    <div class="row">
+      <div class="col-lg-4"><i class="fas fa-check-circle fa-4x"></i>   <!--font awesome size fa-4x-->
+        <h3>Easy to use.</h3>
+        <p class="p">So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="col-lg-4"><i class="fas fa-bullseye fa-4x"></i>
+        <h3>Elite Clientele</h3>
+        <p class="p">We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class="col-lg-4"><i class="fas fa-heart fa-4x"></i>
+        <h3>Guaranteed to work.</h3>
+        <p class="p">Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonials -->
+
+
+  <section id="testimonials">                                                       <!--5000 milli seconds-->
+    <div id="carousel-slidesss" class="carousel slide" data-ride="hover" data-interval="5000" data-pause="hover">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="dogimage" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel-slidesss" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-slidesss" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Press -->
+  
+  
+  <section id="press">
+    <img class="images4" src="images/techcrunch.png" alt="tc-logo">
+    <img class="images4" src="images/tnw.png" alt="tnw-logo">
+    <img class="images4" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="images4" src="images/mashable.png" alt="mashable-logo">
+  </section>
+
+
+  <!-- Pricing -->
+  
+  
+  <section id="pricing">
+    <h2>A Plan for Every Dog's Needs</h2>
+    <p class="p">Simple and affordable price plans for your and your dog.</p>
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p class="p">5 Matches Per Day</p>
+            <p class="p">10 Messages Per Day</p>
+            <p class="p">Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2>$49 / mo</h2>
+            <p class="p">Unlimited Matches</p>
+            <p class="p">Unlimited Messages</p>
+            <p class="p">Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2>$99 / mo</h2>
+            <p class="p">Pirority Listing</p>
+            <p class="p">Unlimited Matches</p>
+            <p class="p">Unlimited Messages</p>
+            <p class="p">Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="cta">
+    <h1 class="last">Find the True Love of Your Dog's Life Today.</h1>
+    <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i>Download</button>
+    <button class="btn btn-lg btn-outline-light" type="button"><i class="fab fa-google-play"></i>Download</button>
+  </section>
+  <!-- Footer -->
+  <footer id="footer">
+    <a class="foot" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fab fa-twitter fa-2x"></i></a>
+    <a class="foot" href="https://www.instagram.com/thisisshubhamgaur/"><i class="fab fa-instagram fa-2x"></i></a>
+    <a class="foot" href="https://www.linkedin.com/in/shubham-gaur-46b450215/?challengeId=AQEda_Jz0UIm5gAAAX33C2ljdL5X6qNVmApqRg9x6gl9a3HIr8kQsD7d8uGHMrxvKN6xDOYAoVaWZ17n29XD3akbOWCP_DRAog&submissionId=a55f87d0-d952-c416-2bad-33bf82037055 "><i class="fab fa-linkedin-in fa-2x"></i></a>
+    <a class="foot" href=""></a>
+    <p class="p n">© Copyright 2018 Doggo</p>
+    <a class="heart" ><i class="fas fa-heart fa-3x"></i></a>
+  </footer>
+</body>
+</html>
